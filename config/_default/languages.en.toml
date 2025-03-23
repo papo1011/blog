@@ -1,0 +1,9 @@
+title = "Bydet"
+
+[params.author]
+name = "Francesco Papini"
+headline = "A generally awesome human"
+bio = "boh"
+links = [
+  { github = "https://github.com/papo1011" }
+]
