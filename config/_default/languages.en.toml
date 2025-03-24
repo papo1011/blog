@@ -4,6 +4,7 @@ title = "Bydet"
 name = "Francesco Papini"
 headline = "A generally awesome human"
 bio = "boh"
+email = "info@francescopapini.com"
 links = [
   { github = "https://github.com/papo1011" }
 ]

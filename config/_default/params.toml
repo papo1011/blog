@@ -11,6 +11,7 @@ autoSwitchAppearance = false
 
 enableSearch = true
 enableCodeCopy = true
+replyByEmail = true
 
 mainSections = ["posts"]
 # robots = ""
@@ -27,7 +28,7 @@ mainSections = ["posts"]
 [homepage]
   layout = "profile" # valid options: page, profile, custom
   showRecent = true
-  showRecentItems = 5
+  showRecentItems = 10
   # showMoreLink = false
   # showMoreLinkDest = "/docs"
  
@@ -40,9 +41,6 @@ mainSections = ["posts"]
   # showBreadcrumbs = true
   showDraftLabel = true
   showEdit = false
-  editURL = "https://github.com/pmnxis/pmnxis.github.io/tree/main/exampleSite/content"
-  editAppendPath = true
-  showHeadingAnchors = true
   showPagination = true
   invertPagination = false
   showReadingTime = true
@@ -50,8 +48,8 @@ mainSections = ["posts"]
   showTaxonomies = true 
   showWordCount = false
   showSummary = true
-  showComment = true    # duplicated paramter for compatibility
-  showComments = true   # duplicated paramter for compatibility
+  showComment = false    # duplicated paramter for compatibility
+  showComments = false   # duplicated paramter for compatibility
   sharingLinks = [ "linkedin", "twitter", "reddit", "facebook", "email"]
 
 [list]
