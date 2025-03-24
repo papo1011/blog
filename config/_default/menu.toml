@@ -1,0 +1,35 @@
+# config/_default/menus.toml
+
+[[main]]
+  name = "Blog"
+  pageRef = "posts"
+  weight = 10
+
+[[main]]
+  name = "Tags"
+  pageRef = "tags"
+  weight = 20
+
+[[main]]
+  name = "Categories"
+  pageRef = "categories"
+  weight = 30
+
+[[main]]
+  name = "GitHub"
+  url = "https://github.com/papo1011"
+  weight = 40
+
+# -- Footer Menu --
+# The footer menu is displayed at the bottom of the page, just before
+# the copyright notice. Configure as per the main menu above.
+
+[[footer]]
+  name = "Categories"
+  pageRef = "categories"
+  weight = 10
+
+[[footer]]
+  name = "Tags"
+  pageRef = "tags"
+  weight = 10

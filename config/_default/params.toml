@@ -3,102 +3,75 @@
 # customise the display of your website.
 #
 # Refer to the theme docs for more details about each of these parameters.
-# https://blowfish.page/docs/configuration/#theme-parameters
+# https://nunocoracao.github.io/blowfish/docs/configuration/#theme-parameters
 
 colorScheme = "blowfish"
-defaultAppearance = "dark"
-autoSwitchAppearance = true
+defaultAppearance = "dark" # valid options: light or dark
+autoSwitchAppearance = false
 
 enableSearch = true
 enableCodeCopy = true
 
-mainSections = ["docs"]
+mainSections = ["posts"]
 # robots = ""
 
-disableImageOptimization = false
-
-highlightCurrentMenuArea = true
-smartTOC = true
-smartTOCHideUnfocusedChildren = false
-
-[header]
-  layout = "fixed" # valid options: basic, fixed, fixed-fill, fixed-fill-blur
-
 [footer]
-  showMenu = true
   showCopyright = true
-  showThemeAttribution = false
-  showAppearanceSwitcher = false
+  showThemeAttribution = true
+  showAppearanceSwitcher = true
   showScrollToTop = true
+  showRecent = true
+  showRecentItems = 3
+  showMoreLink = true
 
 [homepage]
-  layout = "custom" # valid options: page, profile, hero, card, background, custom
-  # homepageImage = "/img/iceland.jpg" # used in: hero, and card
-  showRecent = false
-  showRecentItems = 12
-  showMoreLink = true
-  showMoreLinkDest = "docs"
-  cardView = false
-  cardViewScreenWidth = false
-  layoutBackgroundBlur = true # only used when layout equals background
-
+  layout = "profile" # valid options: page, profile, custom
+  showRecent = true
+  showRecentItems = 5
+  # showMoreLink = false
+  # showMoreLinkDest = "/docs"
+ 
 [article]
   showDate = true
-  showViews = false
-  showLikes = false
-  showDateUpdated = false
+  # showViews = true
+  # showLikes = true
+  # showDateUpdated = false
   showAuthor = true
-  showHero = true
-  heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
-  layoutBackgroundBlur = true # only used when heroStyle equals background
-  showBreadcrumbs = true
+  # showBreadcrumbs = true
   showDraftLabel = true
+  showEdit = false
+  editURL = "https://github.com/pmnxis/pmnxis.github.io/tree/main/exampleSite/content"
+  editAppendPath = true
+  showHeadingAnchors = true
+  showPagination = true
+  invertPagination = false
   showReadingTime = true
   showTableOfContents = true
-  showRelatedContent = true
-  relatedContentLimit = 6
   showTaxonomies = true 
-  showAuthorsBadges = true 
   showWordCount = false
-  sharingLinks = [ "linkedin", "twitter", "reddit", "whatsapp", "telegram", "facebook", "email"]
+  showSummary = true
+  showComment = true    # duplicated paramter for compatibility
+  showComments = true   # duplicated paramter for compatibility
+  sharingLinks = [ "linkedin", "twitter", "reddit", "facebook", "email"]
 
 [list]
-  showHero = true
-  heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
-  layoutBackgroundBlur = true # only used when heroStyle equals background
-  layoutBackgroundHeaderSpace = false
   showBreadcrumbs = false
-  showSummary = false
-  showViews = true
-  showLikes = true
-  showTableOfContents = true
-  showCards = true
+  showSummary = true
+  showTableOfContents = false
   groupByYear = false
-  cardView = true
-  cardViewScreenWidth = false
-  constrainItemsWidth = false
 
 [sitemap]
-  excludedKinds = []
+  # excludedKinds = ["taxonomy", "term"]
 
 [taxonomy]
   showTermCount = true
-  showHero = true
-  heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
-  showBreadcrumbs = false
-  showViews = true
-  showLikes = true
-  showTableOfContents = true
-  cardView = false
 
-[term]
-  showHero = true
-  heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
-  showBreadcrumbs = false
-  showViews = true
-  showLikes = true
-  showTableOfContents = true
-  groupByYear = false
-  cardView = true
-  cardViewScreenWidth = false
-  
+[fathomAnalytics]
+  # site = "ABC12345"
+  # domain = "llama.yoursite.com"
+
+[verification]
+  # google = ""
+  # bing = ""
+  # pinterest = ""
+  # yandex = ""
