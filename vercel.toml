@@ -1,2 +1,0 @@
-  command = "hugo --gc --minify"
-  environment = { HUGO_VERSION = "0.123.7" }
