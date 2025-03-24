@@ -1,3 +1,41 @@
 baseURL = 'https://blog.francescopapini.com/'
 languageCode = 'en-us'
 theme = 'blowfish'
+contentDir = "content"
+
+hasCJKLanguage = true
+enableRobotsTXT = true
+paginate = 20
+summaryLength = 30
+
+tag = 'tags'
+
+[taxonomies]
+  tag = "tags"
+  author = "authors"
+  series = "series"
+
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[related]
+  threshold = 1
+  includeNewer = true
+  toLower = true
+
+    [[related.indices]]
+        name = "tags"
+        weight = 100
+
+    [[related.indices]]
+        name = "series"
+        weight = 50
+
+    [[related.indices]]
+        name = "authors"
+        weight = 10
+
+    [[related.indices]]
+        name = "date"
+        weight = 0

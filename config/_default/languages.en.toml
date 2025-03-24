@@ -6,5 +6,9 @@ headline = "A generally awesome human"
 bio = "boh"
 email = "info@francescopapini.com"
 links = [
-  { github = "https://github.com/papo1011" }
+  { github = "https://github.com/papo1011" },
+  { linkedin = "https://www.linkedin.com/in/francescopapini10" },
+  { medium = "https://medium.com/@francesco_papini" },
+  { instagram = "https://www.instagram.com/francesco_papini" },
+  { rss = "/index.xml" }
 ]
