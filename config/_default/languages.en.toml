@@ -2,13 +2,15 @@ title = "Bydet"
 
 [params.author]
 name = "Francesco Papini"
-headline = "A generally awesome human"
-bio = "boh"
+image = "profile.jpeg"
+headline = "I love clean code, deeply analyzing problems, and solving them. I'm a Computer Engineering student, and on my blog Bydet, I share my journey and insights along the way."
+bio = "Bydet is my blog where I share my journey as a Computer Engineering student, focusing on clean code and problem-solving."
 email = "info@francescopapini.com"
 links = [
   { github = "https://github.com/papo1011" },
-  { linkedin = "https://www.linkedin.com/in/francescopapini10" },
   { medium = "https://medium.com/@francesco_papini" },
+  { linkedin = "https://www.linkedin.com/in/francescopapini10" },
   { instagram = "https://www.instagram.com/francesco_papini" },
+  { email = "mailto:info@francescopapini.it" },
   { rss = "/index.xml" }
 ]

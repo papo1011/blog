@@ -11,8 +11,13 @@
   weight = 20
 
 [[main]]
-  name = "GitHub"
-  url = "https://github.com/papo1011"
+  name = "Portfolio"
+  url = "https://francescopapini.com"
+  weight = 30
+
+[[main]]
+  name = "Medium"
+  url = "https://medium.com/@francesco_papini"
   weight = 40
 
 # -- Footer Menu --
