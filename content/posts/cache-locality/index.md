@@ -1,7 +1,7 @@
 +++
 title = 'Cache and Locality'
 date = 2025-03-23T19:01:44+01:00
-draft = true
+draft = false
 tags = ['cache', 'locality']
 +++
 
