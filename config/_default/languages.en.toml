@@ -1,8 +1,9 @@
-title = "Bydet"
+title = "Bydet Blog"
+logo = "img/bydet-logo.png"
 
 [params.author]
 name = "Francesco Papini"
-image = "profile.jpeg"
+image = "img/profile.jpeg"
 headline = "I love clean code, deeply analyzing problems, and solving them. I'm a Computer Engineering student, and on my blog Bydet, I share my journey and insights along the way."
 bio = "Bydet is my blog where I share my journey as a Computer Engineering student, focusing on clean code and problem-solving."
 email = "info@francescopapini.com"
