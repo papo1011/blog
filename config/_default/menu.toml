@@ -1,13 +1,8 @@
 # config/_default/menus.toml
 
 [[main]]
-  name = "Blog"
-  pageRef = "posts"
-  weight = 10
-
-[[main]]
-  name = "Tags"
-  pageRef = "tags"
+  name = "Series"
+  pageRef = "series"
   weight = 20
 
 [[main]]
@@ -19,6 +14,11 @@
   name = "Medium"
   url = "https://medium.com/@francesco_papini"
   weight = 40
+
+[[main]]
+  name = "Github"
+  url = "https://github.com/papo1011"
+  weight = 50
 
 # -- Footer Menu --
 # The footer menu is displayed at the bottom of the page, just before
