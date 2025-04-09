@@ -4,8 +4,8 @@ logo = "img/bydet-logo.png"
 [params.author]
 name = "Francesco Papini"
 image = "img/profile.jpeg"
-headline = "I love clean code, deeply analyzing problems, and solving them. I'm a Computer Engineering student, and on my blog Bydet, I share my journey and insights along the way."
-bio = "Bydet is my blog where I share my journey as a Computer Engineering student, focusing on clean code and problem-solving."
+headline = "Bydet is the blog I started to force myself to clean up my Computer Engineering notes, adding a clearer narrative and practical examples along the way. I hope the content can be useful to someone out there, just as organizing it has been helpful for me"
+bio = "Bydet is the blog I started to force myself to clean up my Computer Engineering notes, adding a clearer narrative and practical examples along the way. I hope the content can be useful to someone out there, just as organizing it has been helpful for me"
 email = "info@francescopapini.com"
 links = [
   { github = "https://github.com/papo1011" },
